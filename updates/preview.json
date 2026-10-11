@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "packageName": "com.totb.m4launcher",
+  "channel": "preview",
+  "versionCode": 90,
+  "versionName": "1.4.0-rc12-personal",
+  "minSdk": 33,
+  "size": 22046600,
+  "sha256": "36b6bb16e370fbb611711aab88f5ab52c76d06208d105db88096df91996f50e5",
+  "apkUrl": "https://github.com/DANDAN-TT/m4-launcher/releases/download/v1.4.0-rc12-personal/M4-Launcher-1.4.0-rc12-personal.apk",
+  "notes": "# M4 Launcher 1.4.0-rc12-personal\n\n개인 시험 배포, versionCode 90, 패키지 `com.totb.m4launcher`입니다.\n\n- 2·3분할에서 화면 구역을 유지한 채 앱 자리를 교환합니다. 기존 좌우 반전은 유지합니다.\n- 시작 지연, 인터넷 연결 대기, 앱 순차 실행 간격을 설정할 수 있습니다. 연결 대기는 무한정 지속하지 않습니다.\n- 앱 조합별 화면 밀도(DPI)를 저장합니다. 지정하지 않은 구역은 기존 앱별 설정을 사용합니다.\n- 조작 바에 최근 앱 버튼을 선택해서 표시합니다.\n- 넓은 하단 조작 바에 조합 바로가기를 최대 3개 표시하는 옵션을 추가했습니다.\n\n사용자 요청으로 앱 식별자를 com.totb.m4launcher로 변경하고 새 개인 서명 키를 만들었습니다. 기존 com.totb.drivedeck과 별도 앱으로 설치됩니다. **기존 앱에서 설정 백업 → 새 APK 설치 → 백업 복원 → 기본 런처·연결 권한 설정** 순서로 진행하세요. 기존 앱은 복원 확인 후 필요에 따라 제거할 수 있습니다. 백업의 예전 홈 화면 주소는 새 앱 주소로 변환하며, 기존 설정 형식과 앱 목록 버튼 ID는 유지합니다. 이후 개인 배포본끼리는 같은 키·패키지와 더 높은 versionCode로 업데이트합니다.\n\n현재 배포 저장소는 `DANDAN-TT/m4-launcher`이며 비공개입니다. GitHub 로그인 후 APK를 수동으로 받을 수 있습니다. 현재 앱 내 업데이트는 인증 없는 공개 경로를 사용하므로 비공개 상태에서는 작동하지 않습니다. APK와 업데이트 정보만 공개하거나, 별도의 비공개 다운로드 인증을 구현해야 합니다. 소스와 서명 키를 공개할 필요는 없습니다.\n\n검증: 이 PC에서 Java 17·Android SDK 34로 release 빌드, JVM 단위 검사 753개, 린트 오류 0개·경고 141개, Android 기기 검사 APK 빌드가 통과했습니다. 개인 APK의 서명·정렬·패키지·버전도 확인했습니다. 기기 검사는 실행하지 않았고 실제 엠스틱 4, 상용 내비 광고, DRM 재생과 발열 절감량은 미검증입니다. 이번 기능의 실기기 동작과 기존 설치본에서의 설정 복원도 아직 확인하지 않았습니다.\n\nAB Launcher 1.5.3의 공식 APK 리소스와 공식 스크린샷을 참고했습니다. AB와의 전체 기능 동등성을 주장하지 않습니다. 자동 축소와 가장자리 패널, 지속 음악 바, DPI 일괄·실시간 적용 등 남은 항목은 계속 개발 대상입니다.\n\nAPK SHA-256: `36b6bb16e370fbb611711aab88f5ab52c76d06208d105db88096df91996f50e5`.\n개인 인증서 SHA-256: `c952000fa22bd1c0baff73ac7ef47b2ecd20759d45a503a064fe2745600625b6`.\nRelink SHA-256: `e0d2ead99a955dce7960446ebbea15e65dd472f15d6ed82726bbea038584bc98`.\n\nLGPL 라이브러리의 소스·오브젝트·재링크 자료를 별도 ZIP으로 제공합니다. 앱 소스나 개인 서명 키는 포함하지 않습니다.\n"
+}
